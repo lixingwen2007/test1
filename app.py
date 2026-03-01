@@ -26,10 +26,10 @@ class ColorWindow:
         self.button = tk.Button(
             self.content,
             text="切换颜色",
-            font=("Arial", 18),
+            font=("Arial", 24),
             command=self.change_color,
-            padx=30,
-            pady=16,
+            padx=44,
+            pady=24,
         )
         self.button.pack()
 
